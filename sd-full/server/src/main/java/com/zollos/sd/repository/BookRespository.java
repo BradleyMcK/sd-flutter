@@ -1,0 +1,9 @@
+package com.zollos.sd.repository;
+
+import com.zollos.sd.model.Book;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface BookRespository extends JpaRepository<Book, Long> {
+}
